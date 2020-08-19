@@ -29,4 +29,4 @@ def find_dog_by_name(name):
 
 
 result = find_dog_by_name("黑米")
-print(result.name)
+print(result.__dict__)
